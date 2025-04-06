@@ -1,6 +1,6 @@
 # Calculator Project
 
-This is a simple calculator application developed in Python. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division.
+This is a simple calculator application developed in Python. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division. The application now features a graphical user interface (GUI) built with `tkinter`.
 
 ## Features
 
@@ -8,6 +8,8 @@ This is a simple calculator application developed in Python. It provides basic a
 - Subtraction
 - Multiplication
 - Division (with error handling for division by zero)
+- Clear button to reset inputs and results
+- User-friendly GUI built with `tkinter`
 
 ## Installation
 
@@ -35,12 +37,16 @@ To run the calculator, execute the following command:
 python calculator/main.py
 ```
 
-Follow the prompts to select an operation and input numbers.
+A GUI window will open where you can:
+- Enter two numbers.
+- Perform addition, subtraction, multiplication, or division.
+- Clear the inputs and results.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
-***This was made using python version 3.16.2***
+
+***This was made using Python version 3.16.2.***  
 ***Feel free to submit issues or pull requests for improvements or bug fixes.***

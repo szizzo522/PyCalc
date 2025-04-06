@@ -1,1 +1,8 @@
-# This file is intentionally left blank.
+"""
+Calculator Package
+
+This package contains the main calculator application with a GUI built using tkinter.
+"""
+
+# Import the main module
+from .main import *
